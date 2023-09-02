@@ -5,7 +5,7 @@ sans-serif;
 $color-primary: #333;
 $color-secondary: #666;
 
-.earphone {
+.headphone {
     width: 400px;
     height: 768px;
     border-radius: 8px;
@@ -30,7 +30,7 @@ $color-secondary: #666;
     }
 
     &__price {
-        @extend .earphone__text;
+        @extend .headphone__text;
         font-size: 32px;
         font-weight: 700;
         color: $color-primary;
@@ -38,7 +38,7 @@ $color-secondary: #666;
     }
 
     &__title {
-        @extend .earphone__text;
+        @extend .headphone__text;
         font-size: 24px;
         font-weight: 500;
         color: $color-primary;
@@ -46,21 +46,21 @@ $color-secondary: #666;
     }
 
     &__descr {
-        @extend .earphone__text;
+        @extend .headphone__text;
         font-size: 16px;
         color: $color-primary;
         width: 320px;
     }
 
     &__choose {
-        @extend .earphone__text;
+        @extend .headphone__text;
         font-size: 16px;
         color: $color-secondary;
         margin-top: 20px;
     }
 
     &__link {
-        @extend .earphone__text;
+        @extend .headphone__text;
         text-decoration-line: underline;
         font-size: 16px;
         color: #61A5FA;
@@ -74,7 +74,7 @@ $color-secondary: #666;
     }
 
     .add__btn {
-        @extend .earphone__text;
+        @extend .headphone__text;
         font-size: 24px;
         font-weight: 400;
         line-height: normal;
